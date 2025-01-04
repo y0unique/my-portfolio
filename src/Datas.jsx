@@ -64,6 +64,14 @@ export const data = {
             link: "https://depedmanila.vercel.app/"
         },
         {   
+            img: require('./images/toymafia.jpg'), 
+            title: 'Toymafia Inventory System', 
+            icons: ['HTML/CSS', 'Javascript', 'PHP/MySQL'], 
+            info: "Toymafia is a simple inventory management system for Funko Pop collectors.", 
+            fscreenImg: require('./images/fsToymafia.jpg'),
+            link: "#"
+        },
+        {   
             img: require('./images/clinic.png'), 
             title: 'UDM Clinic Management', 
             icons: ['HTML/CSS', 'Javascript', 'PHP/MySQL'], 
@@ -90,7 +98,6 @@ export const data = {
 
         { icons: <SiBlender />, title:'3D Rendering ' ,percent:'60%'},
         { icons: <DiPhotoshop/>, title:'Photoshop',percent:'78%'},
-        { icons: <SiExpress />, title: 'ExpressJS',percent:'65%'},
      ],
      //Contact
 
