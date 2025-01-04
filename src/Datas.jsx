@@ -83,14 +83,14 @@ export const data = {
 
       //Expertise
        icon:[
-        { icons: <SiBlender />, title:'3D Rendering ' ,percent:'60%'},
-        { icons: <DiJavascript/>, title:'JavaScript',percent:'89%'},
-        { icons: <DiPython />, title:'Python',percent:'62%'},
-        { icons: <DiReact/>, title: 'ReactJS',percent:'79%'},
-        { icons: <DiPhotoshop/>, title:'Photoshop',percent:'95%'},
-        { icons: <DiCode/>, title: 'Coding',percent:'80%'},
-        { icons: <SiExpress />, title: 'ExpressJS',percent:'80%'},
         { icons: <SiPhp/>, title: 'PHP',percent:'87%'},
+        { icons: <DiJavascript/>, title:'JavaScript',percent:'89%'},
+        { icons: <DiReact/>, title: 'ReactJS',percent:'67%'},
+        { icons: <DiCode/>, title: 'Coding',percent:'80%'},
+
+        { icons: <SiBlender />, title:'3D Rendering ' ,percent:'60%'},
+        { icons: <DiPhotoshop/>, title:'Photoshop',percent:'78%'},
+        { icons: <SiExpress />, title: 'ExpressJS',percent:'65%'},
      ],
      //Contact
 

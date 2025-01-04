@@ -3,10 +3,10 @@
     --clr-text:#454F59;
     --clr-bg-light:#F7F8F9;
     --clr-fmain: #22262B;
-    --clr-fsecond:  rgb(190,170,143);
+    --clr-fsecond:  rgb(45, 130, 181);
     --clr-bg-light-second:#DCDFE4;
     --clr-rgba-light: rgba(36, 35, 35, .5);
-    --clr-rgba-second: rgb(190,170,143,.3);
+    --clr-rgba-second: rgb(45, 130, 181,.3);
     --clr-rgba-black: rgba(255, 255, 255, .5);
     /* dark mode variable */
     --clr-text-dark:#B3B9C4;
@@ -15,8 +15,8 @@
     --clr-bg-dark:#1D2125;
     --clr-bg-dark-second: #2C333A;
     --clr-fmain-dark: #F1F2F4;
-    --clr-fsecond-dark: rgb(208,188,255);
-    --clr-rgba-second-dark: rgba(208,188,255, .3);
+    --clr-fsecond-dark: rgb(83, 167, 216);
+    --clr-rgba-second-dark: rgba(83, 167, 216, .3);
 
     /* text size variable */
     --text-xxs: 12px;
