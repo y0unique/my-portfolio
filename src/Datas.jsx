@@ -7,32 +7,30 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 export const data = {
   // landing
-    firstName: "ivan",
-    lastName: "martin",
+    firstName: "jon",
+    lastName: "raguini",
     myPicture: "image.jpg",
-    profession: ["FRONTEND DEVELOPER", "BACKEND DEVELOPER"],
+    profession: ["FRONTEND DEVELOPER", "BACKEND DEVELOPER" , "IT SUPPORT"],
 
     // education
     educationData:[
           {   year: "2024", 
-              title: "Backend Developer", 
-              location: "Pisopay.com Inc" 
+              title: "IT Support Officer", 
+              location: "Whiterain Digital Technologies Inc.- Makati" 
           },
           {   year: "2023", 
-              title: "IT Specialist", 
+              title: "ICT Staff", 
               location: "Department of Education - Manila" 
           },
-          {   year: "2019", 
+          {   year: "2023", 
               title: "Bachelor of Science in Information Technology", 
               location: "Universidad De Manila" 
           },
-          {   year: "2018", 
-              title: "Computer System Servicing", 
-              location: "Tesda Quezon City" 
+          {   year: "2019", 
+              title: "Technical-Vocational Livelihood-Information and Communications Technology", 
+              location: "AMA Computer College Makati" 
           },
-          {   year: "2017", 
-              title: "Information & Communication Technology", 
-              location: "Timoteo Paez Integrated School" 
+          {   
           }
     ],
     //services
@@ -58,36 +56,12 @@ export const data = {
     //portfolio
       images: [
         {   
-            img: require('./images/zentrySS.png'), 
-            title: 'Zentry', 
-            icons: ["ReactJS", "TailwindCSS", "GSAP"], 
-            info: "Zentry unites every player from countless games and platforms.", 
-            fscreenImg: require('./images/zentry.png' ),
-            link: "https://zentry-inky.vercel.app/"
-        },
-        {   
-            img: require('./images/shopzone.jpg'), 
-            title: 'Deal-It Shop', 
+            img: require('./images/depedmanila.jpg'), 
+            title: 'Deped Manila', 
             icons: ['HTML/CSS', 'Javascript', 'PHP/MySQL'], 
-            info: "Deal-It is a shop where you can buy and sell items.",
-            fscreenImg: require('./images/shopzone.jpg'),
-            link: "#"
-        },
-        {   
-            img: require('./images/UDMAPS.png'), 
-            title: 'UDMAPS AR Navigation', 
-            icons: ['Unity', 'C Sharp', '3D Blender', 'Firebase'], 
-            info: "UDMAPS is an AR Navigation system exclusively only for UDM vicinity.", 
-            fscreenImg: require('./images/UDMAPS.jpg'),
-            link: "https://drive.google.com/drive/folders/1FCb0pzqOHMw5LsKuaIywVHWXvsM4zlhF?usp=sharing"
-        },
-        {   
-            img: require('./images/tc.png'), 
-            title: 'Thruimp Co. Shop', 
-            icons: ["ReactJS", 'ExpressJS', "MySQL"], 
-            info: "Truimp is your go-to thrift shop where you can find a wide range of thrifted products at unbeatable prices.", 
-            fscreenImg: require('./images/fsTc.png' ),
-            link: "https://github.com/Jushiro012623/triump-co/"
+            info: "Official website of Department of Education - Manila 2023-2024",
+            fscreenImg: require('./images/fsDepedmanila.jpg'),
+            link: "https://depedmanila.vercel.app/"
         },
         {   
             img: require('./images/clinic.png'), 
@@ -116,31 +90,28 @@ export const data = {
         { icons: <DiPhotoshop/>, title:'Photoshop',percent:'95%'},
         { icons: <DiCode/>, title: 'Coding',percent:'80%'},
         { icons: <SiExpress />, title: 'ExpressJS',percent:'80%'},
-        { icons: <SiLaravel/>, title: 'Laravel',percent:'87%'},
+        { icons: <SiPhp/>, title: 'PHP',percent:'87%'},
      ],
      //Contact
 
       category :[
       { 
         target:'_blank', link:'https://mail.google.com/mail/u/0/#inbox?compose=new', 
-        contact: 'ivanallen64@gmai.com' , 
+        contact: 'jonraguini@gmail.com' , 
         icons: <SiGmail />, 
         class: 'gmail'
       },
       { 
         target:'',link: '#contact', 
-        contact: '+63-9125-2797-54', 
+        contact: '+63-9672-4321-23', 
         icons: <BsTelephoneFill/>, 
         class: 'phone' 
       }
       ],
 
       socialMeida : [ 
-                <a href='https://www.facebook.com/ivanallen.macabontoc' target='_blank' ><FaFacebook /></a>,  
-                <a href='https://www.instagram.com/sternritter_ivan/' target='_blank'><FaInstagram /></a>, 
-                <a href='https://www.linkedin.com/in/ivan-macabontoc-0a0712295' target='_blank'><FaLinkedin /></a>, 
-                <a href='https://www.twitter.com/Jushiro012623' target='_blank'><FaTwitter /></a>,
-                <a href='https://github.com/Jushiro012623' target='_blank'><FaGithub /></a>
+                <a href='https://www.linkedin.com/in/jon-nathaniel-raguini-5ba29033b/' target='_blank'><FaLinkedin /></a>, 
+                <a href='https://github.com/y0unique' target='_blank'><FaGithub /></a>
         ],  
 
       

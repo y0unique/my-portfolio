@@ -29,7 +29,7 @@ function Landing() {
   const handleDownload = () => {
       // Open the downloaded PDF
       const link = document.createElement('a');
-      link.href = 'Ivan-Macabontoc-Resume.pdf';
+      link.href = 'Jon-Raguini-Resume.pdf';
       link.target = '_blank';
       link.click();
     

@@ -18,6 +18,9 @@
     .landing .text-container h2 span{ /* landing profession */
         font-size: 35px;
     }
+    .landing .text-container h2 span{ /* landing profession1 */
+        font-size: 35px;
+    }
     .landing .cv-resume{ /* landing button cv */
         font-size: 15px;
     }
