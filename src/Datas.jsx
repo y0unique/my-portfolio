@@ -1,8 +1,8 @@
 //import icons
-import { SiCplusplus, SiCsharp, SiPython, SiJavascript, SiBlender, SiAdobephotoshop, SiAdobeillustrator, SiLaravel, SiMysql, SiPhp,  SiGmail, SiExpress, SiTailwindcss    } from "react-icons/si";
+import { SiCplusplus, SiCsharp, SiBootstrap,SiPython, SiJavascript, SiBlender, SiAdobephotoshop, SiAdobeillustrator, SiCanva, SiLaravel, SiMysql, SiPhp,  SiGmail, SiExpress, SiTailwindcss    } from "react-icons/si";
 import { FaJava, FaHtml5, FaReact, FaCss3, FaFigma, FaFacebook ,FaInstagram,FaLinkedin, FaTwitter, FaGithub, FaNodeJs  } from "react-icons/fa";
 
-import { DiJavascript, DiCss3 , DiPython, DiGit , DiReact, DiPhotoshop, DiCode} from "react-icons/di";
+import { DiJavascript, DiCss3 , DiPython, DiGit , DiReact, DiPhotoshop, DiCode, DiIllustrator} from "react-icons/di";
 import { BsTelephoneFill } from "react-icons/bs";
 
 export const data = {
@@ -29,28 +29,26 @@ export const data = {
           {   year: "2019", 
               title: "Technical-Vocational Livelihood-Information and Communications Technology", 
               location: "AMA Computer College Makati" 
-          },
-          {   
-          }
+        }
     ],
     //services
     services:[
           {   title: 'Frontend Development', 
-              text: 'I work with HTML/CSS, Javascript, ReactJS, TailwindCSS for Frontend Development.', 
-              icons: [<FaHtml5 />, <FaCss3 />, <SiJavascript />, <FaReact />, <SiTailwindcss  /> ],
-          },
-          {   title: 'Digital art / Graphic Designing', 
-              text: 'I use Adobe Photoshop, Illustrator and Blender for 3D rendering. ', 
-              icons: [<SiAdobephotoshop />, <SiAdobeillustrator />, <SiBlender />],
-          },
-          {   title: 'Web Design', 
-              text: "I use Figma to create intuitive and visually appealing digital experiences.", 
-              icons: [<FaFigma />],
+              text: 'I work with HTML/CSS, Javascript, ReactJS, Bootstrap, TailwindCSS for Frontend Development.', 
+              icons: [<FaHtml5 />, <FaCss3 />, <SiJavascript />, <FaReact />, <SiTailwindcss />, <SiBootstrap /> ],
           },
           {   title: 'Backend Developement', 
               text: "As a programmer, I develop efficient software solutions for various platforms and applications.", 
               text: "I have experience using PHP/Laravel, MySQL, NodeJS/ExpressJS for Backend Development.", 
               icons: [<SiPhp  />, <SiMysql  />, <SiLaravel />, <FaNodeJs  />, <SiExpress />]
+          },
+          {   title: 'Digital art / Graphic Designing', 
+              text: 'I use Adobe Photoshop, Illustrator, Canva and Blender for 3D rendering. ', 
+              icons: [<SiAdobephotoshop />, <SiAdobeillustrator />,<SiCanva />, <SiBlender />],
+          },
+          {   title: 'Web Design', 
+              text: "I use Figma to create intuitive and visually appealing digital experiences.", 
+              icons: [<FaFigma />],
           },
     ],
     //portfolio
@@ -96,8 +94,10 @@ export const data = {
         { icons: <DiReact/>, title: 'ReactJS',percent:'67%'},
         { icons: <DiCode/>, title: 'Coding',percent:'80%'},
 
+        { icons: <SiBootstrap />, title:'Bootstrap ' ,percent:'60%'},
         { icons: <SiBlender />, title:'3D Rendering ' ,percent:'60%'},
         { icons: <DiPhotoshop/>, title:'Photoshop',percent:'78%'},
+        { icons: <DiIllustrator/>, title:'Illustrator',percent:'70%'},
      ],
      //Contact
 
