@@ -84,6 +84,14 @@ export const data = {
             info: "Barangay Management System is built for the barangay 107 residence and councils.", 
             fscreenImg:require('./images/fsBms.png' ),
             link: "https://bms-sage.vercel.app/"
+        },
+        {   
+            img: require('./images/dwestgate.jpg'), 
+            title: 'DwestGate', 
+            icons: ["HTML", "CSS", "Javascript"], 
+            info: "A simple but useful landing page for DwestGate.", 
+            fscreenImg:require('./images/fsDwestgate.jpg' ),
+            link: "https://dwestgate.ph/"
         }
       ],
 
