@@ -15,7 +15,7 @@ function Nav() {
   return (
     <>
       <nav className='navbar'>
-          {/* <h1 className='logo' onClick={scrollToTop}>IVA<span>N</span></h1> */}
+          {}
           <NavLinks navLinks='web'/>
           <NavLinks navLinks='phone'/>
       </nav>
