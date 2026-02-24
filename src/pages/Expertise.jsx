@@ -6,7 +6,7 @@ import {motion, useAnimation, useInView} from 'framer-motion'
 import {data} from '../Datas'
 //icons
 import { SiBlender, SiTailwindcss  } from "react-icons/si";
-import { DiJavascript, DiCss3 , DiPython, DiGit , DiReact, DiPhotoshop, DiCode} from "react-icons/di";
+// import { DiJavascript, DiCss3 , DiPython, DiGit , DiReact, DiPhotoshop, DiCode} from "react-icons/di";
 
 function Expertise() {
     const ref = useRef(null) //for wrapper 
