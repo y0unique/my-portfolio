@@ -118,7 +118,7 @@ export const data = {
       },
       { 
         target:'',link: '#contact', 
-        contact: '+63-9672-4321-23', 
+        contact: '+63-9151-1964-05', 
         icons: <BsTelephoneFill/>, 
         class: 'phone' 
       }
