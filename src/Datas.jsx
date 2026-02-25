@@ -14,6 +14,10 @@ export const data = {
 
     // education
     educationData:[
+          {   year: "2025 - Present", 
+              title: "Innovation Support Officer", 
+              location: "Transcom Worldwide (Philippines), Inc." 
+          },
           {   year: "2024", 
               title: "IT Support Officer", 
               location: "Whiterain Digital Technologies Inc.- Makati" 
