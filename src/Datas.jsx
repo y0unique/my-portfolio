@@ -95,7 +95,7 @@ export const data = {
             icons: ["HTML", "CSS", "Javascript"], 
             info: "A simple but useful landing page for DwestGate.", 
             fscreenImg:require('./images/fsDwestgate.jpg' ),
-            link: "https://dwestgate.ph/"
+            link: "https://dwestgate.vercel.app/"
         }
       ],
 
